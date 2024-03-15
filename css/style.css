@@ -18,6 +18,8 @@ main {
 .images {
   width: 100%;
   margin-bottom: 20px;
+  border: solid 1px black;
+  border-radius: 20px;
 }
 
 .read-more {
@@ -55,6 +57,7 @@ table#newsletter {
   background-color: #fff4e6;
   border-spacing: 0;
   margin-bottom: 20px;
+  border: solid 1px black;
 }
 
 #first-row td,
