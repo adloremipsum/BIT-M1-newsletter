@@ -7,20 +7,24 @@
 
 body {
   font-family: "Inter";
+  padding: 40px;
+  
 }
 
 main {
-  padding: 30px;
   margin: 0 auto;
   max-width: 800px;
+  border: 1px solid;
 }
 
 .images {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid;
 }
 
-.read-more {
+.readmore {
   width: 100%;
   display: inline-block;
   background-color: black;
@@ -54,7 +58,6 @@ p {
 table#newsletter {
   background-color: #fff4e6;
   border-spacing: 0;
-  margin-bottom: 20px;
 }
 
 #first-row td,
@@ -89,15 +92,20 @@ table#newsletter {
   text-align: center;
 }
 
-#fifth-row {
-}
-#fifth-row td {
-}
 
 #fifth-row div {
   padding: 40px;
   border: 1px solid black;
   border-radius: 20px;
+  background-color: white;
+}
+
+#fifth-row div h2 {
+  font-size: 32px;
+}
+
+#fifth-row div p {
+  font-size: 18px;
 }
 
 #fifth-row div button {
@@ -118,7 +126,6 @@ table#newsletter {
 
 #sixth-row div small {
   display: inline-block;
-  margin-bottom: 20px;
 }
 
 #sixth-row div p {
@@ -127,9 +134,15 @@ table#newsletter {
 
 #footer {
   table-layout: fixed;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 #footer td:nth-of-type(2) {
   vertical-align: top;
   text-align: right;
 }
+
+
+
+
