@@ -15,6 +15,7 @@ main {
   max-width: 800px;
 }
 
+
 .images {
   width: 100%;
   margin-bottom: 20px;
@@ -102,12 +103,15 @@ table#newsletter {
   padding: 40px;
   border: 1px solid black;
   border-radius: 20px;
+  background-color: white;
 }
 
 #fifth-row div button {
   margin-bottom: 20px;
   border-radius: 20px;
   background-color: #f9db52;
+  height: 30px;
+  padding: 10px;
 }
 
 #sixth-row {
