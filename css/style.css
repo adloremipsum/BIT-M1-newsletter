@@ -12,7 +12,6 @@ body {
 }
 
 main {
-  
   margin: 0 auto;
   max-width: 800px;
   border: 1px solid;
@@ -59,7 +58,6 @@ p {
 table#newsletter {
   background-color: #fff4e6;
   border-spacing: 0;
-  margin-bottom: 20px;
 }
 
 #first-row td,
@@ -128,7 +126,6 @@ table#newsletter {
 
 #sixth-row div small {
   display: inline-block;
-  margin-bottom: 20px;
 }
 
 #sixth-row div p {
