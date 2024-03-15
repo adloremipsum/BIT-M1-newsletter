@@ -10,9 +10,10 @@ body {
 }
 
 main {
-  padding: 30px;
   margin: 0 auto;
   max-width: 800px;
+  background-color: #fff4e6;
+  border: 1px solid black;
 }
 
 .images {
@@ -24,11 +25,11 @@ main {
   width: 100%;
   display: inline-block;
   background-color: black;
-  color: white;
-  text-decoration: none;
   text-align: center;
   border-radius: 20px;
   padding: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .learn-more {
@@ -39,7 +40,7 @@ main {
   border-radius: 20px;
 }
 
-.logo {
+.LOGO {
   height: 50px;
 }
 
@@ -51,7 +52,7 @@ p {
   margin-bottom: 20px;
 }
 
-table#newsletter {
+table #newsletter {
   background-color: #fff4e6;
   border-spacing: 0;
   margin-bottom: 20px;
@@ -89,15 +90,11 @@ table#newsletter {
   text-align: center;
 }
 
-#fifth-row {
-}
-#fifth-row td {
-}
-
 #fifth-row div {
   padding: 40px;
   border: 1px solid black;
   border-radius: 20px;
+  background-color: white;
 }
 
 #fifth-row div button {
@@ -125,11 +122,13 @@ table#newsletter {
   font-size: 20px;
 }
 
-#footer {
+footer {
   table-layout: fixed;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
-#footer td:nth-of-type(2) {
+footer td:nth-of-type(2) {
   vertical-align: top;
   text-align: right;
 }
