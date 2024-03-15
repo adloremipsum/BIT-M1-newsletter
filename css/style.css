@@ -10,33 +10,10 @@ body {
 }
 
 main {
-  padding: 30px;
   margin: 0 auto;
   max-width: 800px;
-}
-
-.images {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.read-more {
-  width: 100%;
-  display: inline-block;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 20px;
-  padding: 20px;
-}
-
-.learn-more {
-  padding: 10px 20px;
-  text-decoration: none;
-  border: 1px solid black;
-  display: inline-block;
-  border-radius: 20px;
+  border: 3px rgb(96, 95, 95) solid;
+  margin-bottom: 30px;
 }
 
 .logo {
@@ -56,6 +33,96 @@ table#newsletter {
   border-spacing: 0;
   margin-bottom: 20px;
 }
+
+/* first row */
+
+.first-row-left{
+  width: 40%;
+}
+
+.first-row-middle{
+  width: 20%;
+}
+
+.first-row-right {
+  width: 40%;
+}
+
+/* second-row */
+
+.images {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.read-more {
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* fifth-row */
+
+.card {
+  max-width: 90%;
+  margin: 35px auto;
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 15px;
+  padding:45px;
+}
+
+.ask-button {
+  background-color: #f9db52;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: solid 3px black;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.card h2{
+  margin-top: 40px;
+}
+
+.card p {
+  font-size: 19px;
+}
+
+.learn-more {
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+/* sixth-row */
+
+.LOGO {
+  max-height: 60PX;
+}
+
+/* footer */
+
+footer {
+  padding: 0 30px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+footer td:nth-of-type(2) {
+  vertical-align: top;
+  text-align: right;
+}
+
+
 
 #first-row td,
 #fourth-row td {
@@ -89,11 +156,6 @@ table#newsletter {
   text-align: center;
 }
 
-#fifth-row {
-}
-#fifth-row td {
-}
-
 #fifth-row div {
   padding: 40px;
   border: 1px solid black;
@@ -125,11 +187,4 @@ table#newsletter {
   font-size: 20px;
 }
 
-#footer {
-  table-layout: fixed;
-}
 
-#footer td:nth-of-type(2) {
-  vertical-align: top;
-  text-align: right;
-}
