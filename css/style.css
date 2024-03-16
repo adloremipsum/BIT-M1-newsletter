@@ -1,24 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  font-family: "Inter";
+}
+.Pagecontain {
+  max-width: 1000px;
+    margin: auto;
+    background-color: #f1ddea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.logo {
+  height: 50px;
+  margin: 0 auto;
+}
+.images {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
-body {
-  font-family: "Inter";
-}
 
-main {
-  padding: 30px;
-  margin: 0 auto;
-  max-width: 800px;
-}
 
-.images {
-  width: 100%;
-  margin-bottom: 20px;
-}
+
+
+
 
 .read-more {
   width: 100%;
@@ -39,9 +51,7 @@ main {
   border-radius: 20px;
 }
 
-.logo {
-  height: 50px;
-}
+
 
 h2 {
   margin-bottom: 20px;
@@ -51,11 +61,7 @@ p {
   margin-bottom: 20px;
 }
 
-table#newsletter {
-  background-color: #fff4e6;
-  border-spacing: 0;
-  margin-bottom: 20px;
-}
+
 
 #first-row td,
 #fourth-row td {
@@ -89,10 +95,7 @@ table#newsletter {
   text-align: center;
 }
 
-#fifth-row {
-}
-#fifth-row td {
-}
+
 
 #fifth-row div {
   padding: 40px;
