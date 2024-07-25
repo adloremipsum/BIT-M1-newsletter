@@ -18,6 +18,8 @@ main {
 .images {
   width: 100%;
   margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 .read-more {
@@ -55,6 +57,7 @@ table#newsletter {
   background-color: #fff4e6;
   border-spacing: 0;
   margin-bottom: 20px;
+  border: 1px solid black;
 }
 
 #first-row td,
@@ -87,6 +90,7 @@ table#newsletter {
   margin: 0;
   background-color: #f9db52;
   text-align: center;
+  
 }
 
 #fifth-row {
@@ -98,12 +102,18 @@ table#newsletter {
   padding: 40px;
   border: 1px solid black;
   border-radius: 20px;
+  background-color: white;
+  padding: 40px;
+  display: inline-block;
+  margin: 40px 40px;
 }
 
 #fifth-row div button {
   margin-bottom: 20px;
   border-radius: 20px;
   background-color: #f9db52;
+  height: 40px;
+  width: 100px;
 }
 
 #sixth-row {
