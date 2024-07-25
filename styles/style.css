@@ -102,10 +102,10 @@ table#newsletter {
   padding: 40px;
   border: 1px solid black;
   border-radius: 20px;
-  margin-top: 20px;
   background-color: white;
   padding: 40px;
   display: inline-block;
+  margin: 20px 40px;
 }
 
 #fifth-row div button {
