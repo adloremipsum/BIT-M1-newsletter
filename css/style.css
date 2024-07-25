@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  margin: 0 auto;
+  margin: 50px auto;
   background-color: #fff4e6;
   border: 2px solid black;
   max-width: 800px;
@@ -22,9 +22,18 @@ footer {
   max-width: 800px;
 }
 
+.card1{
+  align-items: left;
+}
+
+.card2 {
+  text-align: right;
+}
+
 .images {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .read-more {
@@ -49,6 +58,7 @@ footer {
 .logo {
   height: 50px;
 }
+
 
 h2 {
   margin-bottom: 20px;
@@ -126,11 +136,4 @@ table#newsletter {
 
 #sixth-row div p {
   font-size: 20px;
-}
-
-
-
-#footer td:nth-of-type(2) {
-  vertical-align: top;
-  text-align: right;
 }
