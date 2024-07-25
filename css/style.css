@@ -10,14 +10,30 @@ body {
 }
 
 main {
-  padding: 30px;
-  margin: 0 auto;
+  margin: 50px auto;
+  background-color: #fff4e6;
+  border: 2px solid black;
   max-width: 800px;
+}
+
+footer {
+  padding: 7px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+.card1{
+  align-items: left;
+}
+
+.card2 {
+  text-align: right;
 }
 
 .images {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .read-more {
@@ -43,6 +59,7 @@ main {
   height: 50px;
 }
 
+
 h2 {
   margin-bottom: 20px;
 }
@@ -52,7 +69,6 @@ p {
 }
 
 table#newsletter {
-  background-color: #fff4e6;
   border-spacing: 0;
   margin-bottom: 20px;
 }
@@ -89,13 +105,9 @@ table#newsletter {
   text-align: center;
 }
 
-#fifth-row {
-}
-#fifth-row td {
-}
-
 #fifth-row div {
   padding: 40px;
+  background-color: #f2ebeb;
   border: 1px solid black;
   border-radius: 20px;
 }
@@ -111,6 +123,7 @@ table#newsletter {
 }
 
 #sixth-row div {
+  background-color: #f2ebeb;
   border: 1px solid black;
   padding: 40px;
   border-radius: 20px;
@@ -123,13 +136,4 @@ table#newsletter {
 
 #sixth-row div p {
   font-size: 20px;
-}
-
-#footer {
-  table-layout: fixed;
-}
-
-#footer td:nth-of-type(2) {
-  vertical-align: top;
-  text-align: right;
 }
