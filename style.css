@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  border-width: 10%;
 }
 
 body {
@@ -18,6 +19,7 @@ main {
 .images {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .read-more {
@@ -55,6 +57,14 @@ table#newsletter {
   background-color: #fff4e6;
   border-spacing: 0;
   margin-bottom: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 2%;
+  border-collapse: separate 
+}
+
+#newsletter td {
+  padding: 10px;
 }
 
 #first-row td,
