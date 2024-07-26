@@ -57,6 +57,14 @@ table#newsletter {
   background-color: #fff4e6;
   border-spacing: 0;
   margin-bottom: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 2%;
+  border-collapse: separate 
+}
+
+#newsletter td {
+  padding: 10px;
 }
 
 #first-row td,
